@@ -12,7 +12,6 @@
     ],
     "sharedGlobals": []
   },
-  "nxCloudId": "671a14c18cf52f5d70a1c99d",
   "plugins": [
     {
       "plugin": "@nx/eslint/plugin",
@@ -31,5 +30,12 @@
         "typecheckTargetName": "typecheck"
       }
     }
-  ]
+  ],
+  "targetDefaults": {
+    "@nx/vite:build": {
+      "cache": true,
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"]
+    }
+  }
 }

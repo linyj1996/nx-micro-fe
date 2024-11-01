@@ -7,6 +7,6 @@ describe('App', () => {
   it('renders properly', async () => {
     const wrapper = mount(App, {});
 
-    expect(wrapper.text()).toContain('Welcome nx-micro-fe 👋');
+    expect(wrapper.text()).toContain('Welcome admin-fanhuan 👋');
   });
 });

@@ -3,5 +3,5 @@ import NxWelcome from './NxWelcome.vue';
 </script>
 
 <template>
-  <NxWelcome title="nx-micro-fe" />
+  <NxWelcome title="admin-fanhuan" />
 </template>

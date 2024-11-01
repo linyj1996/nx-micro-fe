@@ -1,0 +1,11 @@
+{
+  "name": "@fanhuan/shared",
+  "version": "0.0.1",
+  "dependencies": {
+    "@meetyou/toolbox": "^2.3.14"
+  },
+  "main": "./index.js",
+  "module": "./index.mjs",
+  "typings": "./index.d.ts",
+  "private": true
+}

@@ -80,3 +80,6 @@ And join the Nx community:
 - [Follow us on X](https://twitter.com/nxdevtools) or [LinkedIn](https://www.linkedin.com/company/nrwl)
 - [Our Youtube channel](https://www.youtube.com/@nxdevtools)
 - [Our blog](https://nx.dev/blog?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+
+注意事项
+- 使用别名引入时需要在最终调用的地方设置，如在h5-fanhuan中引入ui,而ui中引入了css,需要在h5-fanhaun中设置css别名。

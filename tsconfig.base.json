@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@fanhuan/shared": ["./shared/src/index.ts"],
+      "@fanhuan/ui": ["./ui/src/index.ts"],
+      "@fanhuan/css/*": ["./css/*"],
+      "@fanhuan/h5/*": ["./apps/h5-fanhuan/src/*"],
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
